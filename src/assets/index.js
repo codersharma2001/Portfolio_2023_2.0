@@ -26,6 +26,7 @@ import mayank from "./Mayank.jpg"
 
 import web3nest from "./company/web3nest.png";
 import techlene from "./company/techlene.png";
+import zuraverse from "./company/zuraverse.jpg";
 
 import arctoken from "./Arctoken.png";
 import cryptocanvas from "./CryptoCanvas.png";
@@ -56,6 +57,7 @@ export {
   hyperledger,
   web3nest,
   techlene,
+  zuraverse,
   arctoken,
   cryptocanvas,
   g20meta,
