@@ -15,6 +15,7 @@ import {
     truffle,
     web3nest,
     techlene,
+    zuraverse,
     cryptocanvas,
     dexify,
     blockify,
@@ -120,10 +121,24 @@ import {
   const experiences = [
     {
       title: "Full-Stack Blockchain Developer",
+      company_name: "Zuraverse Play-Earn-Conserve Pvt. Ltd.",
+      icon: zuraverse,
+      iconBg: "#000000",
+      date: "August 2023 - Present",
+      points: [
+        "Leadership Role in Virtual Forest Project: As the Head of the Team for the Virtual Forest project, I have taken a leadership role in guiding the development of immersive virtual environments. This involves leveraging blockchain technology to enhance the overall user experience within the Virtual Forest project",
+        "Architectural Development of Karma Token: I have played a crucial role in designing and implementing the architecture of Karma Token. This token is a key component of the Virtual Forest project, and my contributions extend to integrating it seamlessly within the virtual environment. This involves creating a token system that aligns with the project's goals and enhances user engagement",
+        "Incorporating Innovative Protocols: Through extensive research, I have explored cutting-edge protocols such as the Toucan Protocol, Carbon Offset, and ReFi. The insights gained from this research have been instrumental in implementing these protocols within the Virtual Forest project. This ensures that the project remains at the forefront of technological advancements in the blockchain space",
+        "Smart Contract Auditing Expertise: I have undertaken the responsibility of auditing smart contracts developed within Zuraverse for various projects. This involves a meticulous review process to ensure the security, efficiency, and reliability of these smart contracts. By conducting thorough audits, I contribute to the overall integrity of blockchain-based projects within Zuraverse",
+        "Innovative Blockchain Infrastructure: I have spearheaded the development of a unique blockchain infrastructure that combines both off-chain and on-chain elements. This innovative approach facilitates gasless transactions, providing users with a seamless and immersive experience while interacting with the Virtual Forest game. This dual-layered blockchain infrastructure enhances efficiency and user satisfaction within the virtual environment.",
+      ],
+    },
+    {
+      title: "Full-Stack Blockchain Developer",
       company_name: "Web3Nest Metaverse Private Limited",
       icon: web3nest,
       iconBg: "#383E56",
-      date: "Mar 2023 - Present",
+      date: "Mar 2023 - August 2023",
       points: [
         "NFT Ticket Generator: Created an automated application using React.js, Nodemailer, and Hardhat to extract user data from an xlsx file, mint Soul Bound Tokens (SBTs), list them on polygonscan, and send corresponding ticket PDFs to users via email.",
         "Multi-Metaverse: Developed captivating metaverses by leveraging cutting-edge libraries such as THREE.js and Cesium.js. Incorporated interactive elements and Readyplayer.me avatars to contribute to the G20 Global Summit and sustainability efforts.",
