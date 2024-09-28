@@ -34,7 +34,7 @@ import cryptocanvas from "./CryptoCanvas.png";
 import g20meta from "./g20meta.png";
 import blockify from "./Blockify.png";
 import dexify from "./dexify.png";
-import stakeflow from "./stakeflow.png";
+import stakeflow from "./Stakeflow.png";
 
 export {
   logo,
