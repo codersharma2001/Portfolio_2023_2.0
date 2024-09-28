@@ -27,12 +27,14 @@ import mayank from "./Mayank.jpg"
 import web3nest from "./company/web3nest.png";
 import techlene from "./company/techlene.png";
 import zuraverse from "./company/zuraverse.jpg";
+import velvet from "./company/velvet.png";
 
 import arctoken from "./Arctoken.png";
 import cryptocanvas from "./CryptoCanvas.png";
 import g20meta from "./g20meta.png";
 import blockify from "./Blockify.png";
-import dexify from "./dexify.png"
+import dexify from "./dexify.png";
+import stakeflow from "./stakeflow.png";
 
 export {
   logo,
@@ -58,10 +60,12 @@ export {
   web3nest,
   techlene,
   zuraverse,
+  velvet,
   arctoken,
   cryptocanvas,
   g20meta,
   blockify,
   dexify,
+  stakeflow,
   mayank,
 };

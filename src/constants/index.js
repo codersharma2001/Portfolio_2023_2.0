@@ -24,6 +24,8 @@ import {
     threejs,
     ethereum,
     mayank,
+    velvet,
+    stakeflow,
   } from "../assets";
   
   export const navLinks = [
@@ -43,11 +45,11 @@ import {
   
   const services = [
     {
-      title: "Smart Contract Developement",
+      title: "Smart Contract Developement & Testing",
       icon: web,
     },
     {
-      title: "Defi Specialist",
+      title: "Smart Contract Auditing",
       icon: mobile,
     },
     {
@@ -120,17 +122,34 @@ import {
   
   const experiences = [
     {
+      title: "Blockchain Developer",
+      company_name: "Velvet Capital",
+      icon: velvet, // Add appropriate icon import if available
+      iconBg: "#000000", // Adjust color as needed
+      date: "Jan 2024 - September 2024",
+      points: [
+        "Developed a solver prototype utilizing the Uniswap X SDK, focusing on efficient integration with proprietary systems.",
+        "Implemented Permit2 Signature-based transactions to enhance security and performed single approval based transaction on solver.",
+        "Integrated multiple exchange handlers (e.g., Paraswap, ZeroX, 1inch) into the central server to optimize pricing strategies, creating their calldata and performing the integration with JAM settlement contract for executing the transaction.",
+        "Writing the Swap Contract and integrating into the server, performing the capital flow, to make capital from the solver.",
+        "Enhanced Central Server’s performance by integrating Expand Network for optimal price fetching from liquidity pools and simulating bundled transactions using platforms like Tenderly and Enso.",
+        "Optimized transaction fees and server code, including thorough testing of handler APIs and improving gas efficiency through targeted API usage.",
+        "Being part of Building the CoW Swap Solver, framing the flow and mechanism, along with algorithm of solving batch-orders.",
+        "Performed Unit-testing, Integration-testing and E2E Testing for the server code.",
+        "Performed the code conversion for the central-server to C++ and Rust for low latency and fast response to win as many trades possible.",
+      ],
+    },
+    {
       title: "Full-Stack Blockchain Developer",
       company_name: "Zuraverse Play-Earn-Conserve Pvt. Ltd.",
       icon: zuraverse,
       iconBg: "#000000",
-      date: "August 2023 - Present",
+      date: "August 2023 - December 2023",
       points: [
-        "Leading the Charge: As the Head of the Team for the Virtual Forest project, I spearheaded the development of immersive virtual environments. Tasked with harnessing the power of blockchain technology, our team has been dedicated to pushing the boundaries of virtual experiences",
-        "Karma Token Architecture: Taking a pivotal role in shaping the project's ecosystem, I crafted the architecture of Karma Token. This innovative token system was seamlessly integrated into the Virtual Forest, enhancing user engagement and creating a unique in-game economy.",
-        "Pioneering Sustainability: In the quest for sustainability, I delved into extensive research on cutting-edge protocols such as the Toucan Protocol, Carbon Offset, and ReFi. The goal was to implement these solutions within the Virtual Forest, aligning our project with environmental consciousness and responsible blockchain practices.",
-        "Smart Contracts Audit Expertise: Contributing to the wider blockchain community, I conducted thorough audits on smart contracts, particularly those developed within the Zuraverse. This involvement ensured the security and reliability of diverse projects, bolstering the credibility of the blockchain ecosystem.",
-        "Gasless Transactions and Immersive Experiences: To enhance user interaction within the Virtual Forest game, I architected a groundbreaking blockchain infrastructure. This infrastructure seamlessly combines offchain and onchain elements, facilitating gasless transactions. The result is an immersive and seamless user experience, setting the Virtual Forest project apart in the realm of virtual gaming powered by blockchain technology.",
+        "Led the development of Virtual Forest, building Smart Contracts and integrating Chainlink oracles for continuous offchain weather data.",
+        "Built the Karma Token (ERC 1155) and integrated it into the Virtual Forest as a reward token.",
+        "Developed Smart Contracts for the Zura Marketplace, performed testing and integration, and handled account abstraction.",
+        "Conducted extensive research on Toucan Protocol, Carbon Offset, and ReFi for future implementation in Virtual Forest.",
       ],
     },
     {
@@ -140,11 +159,9 @@ import {
       iconBg: "#383E56",
       date: "Mar 2023 - August 2023",
       points: [
-        "NFT Ticket Generator: Created an automated application using React.js, Nodemailer, and Hardhat to extract user data from an xlsx file, mint Soul Bound Tokens (SBTs), list them on polygonscan, and send corresponding ticket PDFs to users via email.",
-        "Multi-Metaverse: Developed captivating metaverses by leveraging cutting-edge libraries such as THREE.js and Cesium.js. Incorporated interactive elements and Readyplayer.me avatars to contribute to the G20 Global Summit and sustainability efforts.",
-        "GTL Mobile App: Utilized the Drips protocol to enable seamless token streaming of SEVA tokens to users' wallets, while gamifying the experience and promoting sustainability. Developed a landing page using React.js and Web3.js for SEVA token minting.",
-        "Extraction and Tokenization: Automated extraction of user data from an xlsx file and tokenized each user's information into Soul Bound Tokens (SBTs) using the NFT Ticket Generator application.",
-        "Integration and Distribution: Integrated the generated SBTs into the metaverses created with THREE.js and Cesium.js for immersive experiences. Distributed the SBTs and corresponding ticket PDFs to users' email addresses using Nodemailer.",
+        "Developed GTL (Global Treeball League), a fullstack DApp (React.js + TailwindCSS) that generates NFT (ERC-721) tickets for new users, integrating a metaverse to plant trees in a 3D environment linked to actual coordinates via metadata.",
+        "Designed the 3D metaverse environment using THREE.js and Cesium.js for the G20 Global Summit initiative integrated with the GTL DApp.",
+        "Contributed to the GTL Mobile App, implementing the Drips protocol for SEVA token (Soulbound Tokens - SBTs) as a reward token, enabling seamless streaming to player's wallets and developing an algorithm for efficient gameplay, allowing users to claim Carbon Credits in exchange for SEVA tokens.",
       ],
     },
     {
@@ -154,12 +171,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2022 - Oct 2022 ",
       points: [
-        "Worked as a blockchain developer, specializing in advanced Solidity programming for developing complex smart contracts on various blockchain platforms.",
-        "Played a crucial role as part of a team in building ERC-20 and ERC-721 tokens, which are standard token protocols on the Ethereum blockchain. These tokens were used to create an NFT marketplace, providing a platform for trading and showcasing unique digital assets.",
-        "Contributed to the development of an NFT marketplace by leveraging ERC-20 and ERC-721 tokens. This involved implementing the necessary functionalities for buying, selling, and transferring NFTs, as well as integrating features like auctions and royalty mechanisms.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built and deployed an NFT marketplace with advanced smart contracts (ERC-20, ERC-721, and ERC-1155), featuring batch transfers, fractional ownership, royalties, and on-chain metadata for better user experience.",
+        "Integrated and tested contracts using Hardhat while building the frontend with Next.js and ethers.js, enabling real-time blockchain updates, wallet authentication, and dynamic NFT pricing.",
       ],
-    },
+    }
   
   ];
   
@@ -191,6 +206,7 @@ import {
   ];
   
   const projects = [
+    
     {
       name: "Crypto Canvas",
       description:
@@ -297,6 +313,27 @@ import {
       ],
       image: blockify,
       source_code_link: "https://github.com/codersharma2001/Blockify",
+    },
+    {
+      name: "StakeFlow",
+      description:
+        "A user-friendly staking DApp on Ethereum that lets you easily connect your wallet, stake or withdraw tokens, and track your rewards in real-time. With smooth animations, responsive design, and instant notifications, it's built to make staking simple and engaging.",
+      tags: [
+        {
+          name: "solidity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ethers.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stakeflow, // Add appropriate image import if available
+      source_code_link: "https://github.com/codersharma2001/StakeFlow", // Add the source code link if available
     },
   ];
   
