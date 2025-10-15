@@ -3,6 +3,7 @@ import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import {ComputersCanvas} from './canvas';
 import CardImage from '../assets/Mayank.jpg';
+import heroBg from '../assets/herobg.mp4';
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
           e.target.currentTime = 16; // Start playing after 16 seconds
         }}
       >
-        <source src="/src/assets/herobg.mp4" type="video/mp4" />
+        <source src={heroBg} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
