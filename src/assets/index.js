@@ -28,13 +28,14 @@ import web3nest from "./company/web3nest.png";
 import techlene from "./company/techlene.png";
 import zuraverse from "./company/zuraverse.jpg";
 import velvet from "./company/velvet.png";
+import ablelabs from "./company/ablelabs.png";
 
 import arctoken from "./Arctoken.png";
 import cryptocanvas from "./CryptoCanvas.png";
-import g20meta from "./g20meta.png";
 import blockify from "./Blockify.png";
 import dexify from "./dexify.png";
 import stakeflow from "./Stakeflow.png";
+import yieldpulse from "./yieldpulse.png";
 
 export {
   logo,
@@ -58,14 +59,15 @@ export {
   truffle,
   hyperledger,
   web3nest,
+  ablelabs,
   techlene,
   zuraverse,
   velvet,
   arctoken,
   cryptocanvas,
-  g20meta,
   blockify,
   dexify,
   stakeflow,
+  yieldpulse,
   mayank,
 };

@@ -16,11 +16,12 @@ import {
     web3nest,
     techlene,
     zuraverse,
+    ablelabs,
     cryptocanvas,
     dexify,
     blockify,
     arctoken,
-    g20meta,
+    yieldpulse,
     threejs,
     ethereum,
     mayank,
@@ -123,10 +124,28 @@ import {
   const experiences = [
     {
       title: "Blockchain Developer",
+      company_name: "Able Labs",
+      icon: ablelabs,
+      iconBg: "#0F172A",
+      date: "Feb 2025 - Present",
+      points: [
+        "Shipped the Whop Wallet Tracker (1500+ downloads on Whop) as a remote developer in El Paso, Texas, delivering multi-chain support (Ethereum, BNB, Arbitrum, Avalanche, Base, Solana) with real-time swap/transfer detection, smart wallet tracking, PnL analytics, Turnkey authentication, and WebSocket-driven portfolio insights.",
+        "Built Quick Buy flows into the tracker, weaving 0x Permit2 (EVM) and Jupiter (Solana) so users can replicate live trades with native pricing, fee routing, and dynamic calldata.",
+        "Designed bonding curve smart contracts on ApeChain inspired by Tap Markets, layering tap-based buy/sell mechanics, Merkle-tree wallet authentication, fee routing, and automated liquidity migration to AMMs.",
+        "Implemented the walletTracker module for Expresso in Go, monitoring EOAs and smart wallets across ETH, BSC, ARB, AVAX, and BASE with historical plus real-time swap/transfer logging, ABI decoding, and token symbol resolution.",
+        "Hooked Alchemy webhooks into Expresso for real-time portfolio tracking and wallet notifications.",
+        "Integrated the Whop API for personal wallet tracking and watchlists, enabling dynamic multi-chain wallet CRUD and data export within Expresso.",
+        "Collaborated on Expresso’s multi-chain backend architecture to optimize RPC log fetching, event filtering, and live WebSocket handling at scale.",
+        "Developed a Boba Swap solver-integrated backend, wiring Autopilot, Driver, and Orderbook components to power ApeChain swaps across 100+ chains.",
+        "Designed and implemented single-order and batch auction solvers for ApeChain to maximize surplus capture while staying protocol compliant.",
+      ],
+    },
+    {
+      title: "Blockchain Developer",
       company_name: "Velvet Capital",
       icon: velvet, // Add appropriate icon import if available
       iconBg: "#000000", // Adjust color as needed
-      date: "Jan 2024 - September 2024",
+      date: "Jan 2024 - Febuary 2025",
       points: [
         "Developed a solver prototype utilizing the Uniswap X SDK, focusing on efficient integration with proprietary systems.",
         "Implemented Permit2 Signature-based transactions to enhance security and performed single approval based transaction on solver.",
@@ -233,6 +252,35 @@ import {
       source_code_link: "https://github.com/codersharma2001/CryptoCanvas",
     },
     {
+      name: "YieldPulse",
+      description:
+        "Engineered a full-stack ERC-4626 vault dashboard in a Turborepo monorepo combining a Next.js frontend, Fastify API/indexer, shared SDK, and Foundry contracts for cross-chain yield visibility. Integrated Wagmi wallet flows and Tenderly-powered simulations so users can test and execute Aave, Curve, and Pendle strategies from a single command center, then deployed the UI via Netlify.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fastify",
+          color: "green-text-gradient",
+        },
+        {
+          name: "turborepo",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "wagmi",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tenderly",
+          color: "green-text-gradient",
+        },
+      ],
+      image: yieldpulse,
+      source_code_link: "https://github.com/codersharma2001/Yield-Pulse",
+    },
+    {
       name: "DeXify",
       description:
         "I've built a fully functional decentralized exchange using Cranq for smart contract development and deployed it on Georli-testnet. With React and Tailwind CSS, users can easily swap tokens from liquidity pools. Enjoy seamless token exchanges!",
@@ -273,24 +321,6 @@ import {
       ],
       image: arctoken,
       source_code_link: "https://github.com/codersharma2001/Arktoken-A-Web3-Transaction-Hub",
-    },
-    {
-      name: "The G20 Metaverse",
-      description:
-        "This is the G20 Metaverse , that I have built for my internship at Web3Nest with their collaboration with Ministry of Forest for their contribution towards the sustainability of nature .",
-      tags: [
-        {
-          name: "threeJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "nodeJS",
-          color: "pink-text-gradient",
-        },
-       
-      ],
-      image: g20meta,
-      source_code_link: "https://github.com/codersharma2001/G20-metaverse",
     },
     
     {
