@@ -34,7 +34,7 @@ import arctoken from "./Arctoken.png";
 import cryptocanvas from "./CryptoCanvas.png";
 import blockify from "./Blockify.png";
 import dexify from "./dexify.png";
-import stakeflow from "./Stakeflow.png";
+import stakeflow from "./StakeFlow.png";
 import yieldpulse from "./yieldpulse.png";
 
 export {
